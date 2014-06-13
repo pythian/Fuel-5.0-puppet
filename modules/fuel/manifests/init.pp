@@ -1,6 +1,7 @@
 class fuel() {
 
 package { 'unzip': ensure => present }
+file {'/fuel': ensure => directory }
 
 file { "/fuel/vbox-scripts-5.0.zip":
         owner   => "root",
