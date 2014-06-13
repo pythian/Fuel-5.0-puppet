@@ -1,3 +1,3 @@
-node 'oobuntoo' {
+node 'default' {
   include fuel
 }
