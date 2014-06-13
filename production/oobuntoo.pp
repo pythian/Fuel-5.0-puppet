@@ -1,0 +1,3 @@
+node 'oobuntoo' {
+  include fuel
+}
