@@ -4,7 +4,7 @@ Install Open Stack using FUEL 5.0
 Prerequisites
 -------------
 
-1. A recent version of VirtualBox should be installed on the host system
+1. A recent version of VirtualBox and VM VirtualBox Extension Pack should be installed on the host system
 2. Virtualization CPU flags present on the host system
 3. At least 4G of memory and 4 CPU cores
 
