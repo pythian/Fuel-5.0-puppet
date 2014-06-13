@@ -5,6 +5,7 @@ Prerequisites
 -------------
 
 1. A recent version of VirtualBox and VirtualBox Extension Pack should be installed on the host system
+2. 'expect' installed in the host system
 2. Virtualization CPU flags present on the host system
 3. At least 4G of memory and 4 CPU cores
 
