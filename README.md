@@ -1,6 +1,12 @@
 Install Open Stack using FUEL 5.0 
 =================================
 
+Prerequisites
+-------------
+
+1. A recent version of VirtualBox should be installed on the host system
+2. Virtualization CPU flags present on the host system
+3. at least 4G of memory and 4 CPU cores
 
 1. Download OpenStack-5.0.iso and vbox-scripts-5.0.zip from Mirantis website (you will need to create a free account).
 2. Install puppet if not present on the host system
