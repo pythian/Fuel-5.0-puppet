@@ -27,6 +27,15 @@ file { "/fuel/virtualbox/config.sh":
         require => Exec['unpack'],
 }
 
+file { "/fuel/virtualbox/functions/vm.sh":
+        owner   => "root",
+        group   => "root",
+        mode    => 0755,
+        source  => "puppet:///modules/fuel/vm.sh",
+        require => Exec['unpack'],
+}
+
+
 file { "/fuel/MirantisOpenStack-5.0.iso":
         owner   => "root",
         group   => "root",
