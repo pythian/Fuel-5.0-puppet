@@ -15,6 +15,7 @@ Deploy
 2. Install puppet if not present on the host system
 3. Copy/move both downloaded files to /etc/puppet/modules/fuel/files/
 3. git clone this repo to /etc/puppet/ and run it
+4. after puppet finishes, run: `cd /fuel/virtualbox && ./launch.sh` and if no errors are shown, let it run.
 
 
 The overall install time depends on several factors, on a mediocre Bare Metal box with nice Internet connectivity it  took just under an hour.
