@@ -2,7 +2,7 @@ class fuel() {
 
 package { 'unzip': ensure => present }
 
-package { 'expect': ensure > present }
+package { 'expect': ensure => present }
 
 file {'/fuel': ensure => directory }
 
